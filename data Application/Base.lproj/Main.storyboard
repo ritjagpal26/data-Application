@@ -103,7 +103,10 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outletCollection property="textFileds" destination="Utc-5Q-J7t" collectionClass="NSMutableArray" id="3Ca-SO-XGd"/>
+                        <outletCollection property="textFields" destination="Utc-5Q-J7t" collectionClass="NSMutableArray" id="zZM-w6-x7U"/>
+                        <outletCollection property="textFields" destination="0K1-LW-heK" collectionClass="NSMutableArray" id="U3O-4O-xR9"/>
+                        <outletCollection property="textFields" destination="JAj-9b-KCa" collectionClass="NSMutableArray" id="fW1-oy-0KP"/>
+                        <outletCollection property="textFields" destination="S5N-gs-6KW" collectionClass="NSMutableArray" id="8e9-uv-U6E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
