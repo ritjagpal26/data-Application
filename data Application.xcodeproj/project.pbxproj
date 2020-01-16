@@ -13,6 +13,8 @@
 		04C1825D23D116D4003ACD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C1825B23D116D4003ACD80 /* Main.storyboard */; };
 		04C1825F23D116D5003ACD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C1825E23D116D5003ACD80 /* Assets.xcassets */; };
 		04C1826223D116D5003ACD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C1826023D116D5003ACD80 /* LaunchScreen.storyboard */; };
+		04C1826A23D11C1C003ACD80 /* book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1826923D11C1C003ACD80 /* book.swift */; };
+		04C1826C23D12001003ACD80 /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1826B23D12001003ACD80 /* BooksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04C1825E23D116D5003ACD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C1826123D116D5003ACD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C1826323D116D5003ACD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C1826923D11C1C003ACD80 /* book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book.swift; sourceTree = "<group>"; };
+		04C1826B23D12001003ACD80 /* BooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				04C1825723D116D4003ACD80 /* SceneDelegate.swift */,
 				04C1825923D116D4003ACD80 /* ViewController.swift */,
 				04C1825B23D116D4003ACD80 /* Main.storyboard */,
+				04C1826B23D12001003ACD80 /* BooksTableViewController.swift */,
 				04C1825E23D116D5003ACD80 /* Assets.xcassets */,
 				04C1826023D116D5003ACD80 /* LaunchScreen.storyboard */,
 				04C1826323D116D5003ACD80 /* Info.plist */,
+				04C1826923D11C1C003ACD80 /* book.swift */,
 			);
 			path = "data Application";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C1826A23D11C1C003ACD80 /* book.swift in Sources */,
+				04C1826C23D12001003ACD80 /* BooksTableViewController.swift in Sources */,
 				04C1825A23D116D4003ACD80 /* ViewController.swift in Sources */,
 				04C1825623D116D4003ACD80 /* AppDelegate.swift in Sources */,
 				04C1825823D116D4003ACD80 /* SceneDelegate.swift in Sources */,
